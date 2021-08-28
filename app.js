@@ -35,7 +35,6 @@ class CountdownTimer {
     timeFinish(time) {
         if (time < 0) {
             clearInterval(this.setInt);
-            refs. clockFace .textContent = "Finish";
             }
         }
 }
